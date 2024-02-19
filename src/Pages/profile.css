@@ -1,0 +1,81 @@
+.profile {
+  text-align: center;
+  display: flex;
+}
+.profilePic {
+  height: 12rem;
+  width: 12rem;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+.editProfileBtn {
+  border-radius: 2rem;
+  padding: 0.4rem 1rem;
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+.modal {
+  border: 2px solid #514a9d;
+  border-radius: 2rem;
+  background-color: white;
+  box-shadow: white;
+  height: fit-content;
+  width: 400px;
+  margin: auto;
+  padding: 1rem;
+  color: white;
+}
+.avatars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0rem 2.5rem;
+}
+.avatarImg {
+  border: 1px solid #514a9d;
+  height: 6rem;
+  width: 6rem;
+}
+.avatarImg:hover {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+.Input {
+  border: 2px solid #514a9d;
+  border-radius: 1rem;
+  padding: 0rem 0.3rem 1rem;
+  width: 22rem;
+  font-size: 1rem;
+}
+.saveBtn {
+  margin: 0.8rem 0rem;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    text-align: left;
+    flex-direction: column;
+  }
+  .profilePic {
+    height: 6rem;
+    width: 6rem;
+  }
+  .editProfileBtn {
+    border-radius: 2rem;
+    padding: 0.4rem 1rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+  }
+  .modal {
+    width: 300px;
+    padding: 0.5rem 1rem;
+  }
+  .avatars {
+    gap: 0rem;
+    padding: 0rem 0.1rem;
+  }
+  .Input {
+    width: 18rem;
+  }
+}

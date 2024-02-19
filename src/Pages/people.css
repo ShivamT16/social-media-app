@@ -1,0 +1,39 @@
+.people {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.people1 {
+  border-bottom: 1px solid grey;
+  margin: 0rem 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.peopleLink {
+  width: 12rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0rem;
+  text-decoration: none;
+  color: black;
+}
+.peoplePic {
+  margin: 0.4rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+}
+.peopleName {
+  margin: 0.2rem 0rem;
+}
+.PeopleName {
+  margin: 0.2rem 0rem 0rem 0rem;
+}
+.follow-Btn {
+  padding: 0.4rem 0rem;
+  border-radius: 1rem;
+  margin: 1rem -0.1rem;
+  height: fit-content;
+  width: 4rem;
+}

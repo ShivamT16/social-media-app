@@ -1,0 +1,64 @@
+.signIn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -1rem;
+}
+.signUp {
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  border-radius: 2rem;
+  margin: 6rem 8rem;
+  padding: 1.5rem 1rem;
+  width: 35vh;
+  text-align: left;
+  background-color: whitesmoke;
+}
+.signupInput {
+  border: 2px solid #24c6dc;
+  border-radius: 0.5rem;
+  padding: 5px;
+  margin: 4px 2rem;
+}
+.showBtn {
+  margin-left: -5.4rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: none;
+}
+.signupBtn {
+  border: 2px solid #514a9d;
+  border-radius: 0.5rem;
+  margin: 2px 5.5rem;
+  padding: 5px 10px;
+}
+.signup-Btn {
+  border: 2px solid #514a9d;
+  border-radius: 0.5rem;
+  margin: 2px 2.5rem;
+  padding: 5px 10px;
+}
+.P {
+  font-size: 1.2rem;
+}
+.link {
+  text-decoration: none;
+}
+.sidePic {
+  height: 40rem;
+  margin-left: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .signUp {
+    margin: 0rem 0.5rem;
+    margin-top: -4.8rem;
+    padding: 1.5rem 1rem;
+    width: 35vh;
+  }
+  .sidePic {
+    height: 30rem;
+    width: 20rem;
+    margin-top: -5rem;
+    margin-left: 0rem;
+  }
+}
